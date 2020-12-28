@@ -3,8 +3,7 @@ main{
 	margin:auto;
 	display:grid;
 	grid-template-columns:repeat(12, 1fr);
-	grid-gap:100px;
-	background-color:lightblue;
+	background-color:blue;
 }
 
 main img, main video{
