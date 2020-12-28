@@ -2,12 +2,12 @@ body{
 background-color:blue;
 }
 main{
-	max-width:1200px;
+	max-width:970px;
 	margin:auto;
 	display:grid;
 	grid-template-columns:repeat(12, 1fr);
-	grid-gap:100px;
-	align:center;
+	grid-gap:10px;
+	
 }
 
 
