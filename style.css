@@ -6,12 +6,9 @@ main{
 	background-color:blue;
 }
 
-main img, main video{
-	width:100%;
-}
 
 a{ 
-background-color:white;
+background-color:green;
 }
 
 .kol-12{grid-column:span 12;}
