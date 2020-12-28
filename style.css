@@ -11,18 +11,6 @@ main{
 }
 
 
-
-
-@media(max-width:[1200px]){
-main{
-	grid-template-columns:1fr 1r 1fr;
-}
-@media(max-width:900px){
-	main{
- grid-template
-a{
-	background-color:white;
-}
 .kol-12{grid-column:span 12;}
 .kol-4{grid-column:span 4;}
 .kol-4{grid-column:span 4;}
