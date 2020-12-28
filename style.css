@@ -4,6 +4,7 @@ main{
 	display:grid;
 	grid-template-columns:repeat(12, 1fr);
 	grid-gap:10px;
+	background-color:lightblue;
 }
 
 main img, main video{
@@ -15,9 +16,9 @@ background-color:white;
 }
 
 .kol-12{grid-column:span 12;}
-.kol-3{grid-column:span 3;}
-.kol-6{grid-column:span 6;}
-.kol-3{grid-column:span 3;}
+.kol-4{grid-column:span 4;}
+.kol-4{grid-column:span 4;}
+.kol-4{grid-column:span 4;}
 .kol-6{grid-column:span 6;}
 .kol-3{grid-column:span 3;}
 .kol-3{grid-column:span 3;}
