@@ -1,16 +1,27 @@
+body{
+background-color:blue;
+}
 main{
 	max-width:970px;
 	margin:auto;
 	display:grid;
 	grid-template-columns:repeat(12, 1fr);
-	background-color:blue;
+	grid-gap:100px;
 }
 
 
-a{ 
-background-color:green;
-}
 
+
+@media(max-width:[1200px]){
+main{
+	grid-template-columns:1fr 1r 1fr;
+}
+@media(max-width:900px){
+	main{
+ grid-template
+a{
+	background-color:white;
+}
 .kol-12{grid-column:span 12;}
 .kol-4{grid-column:span 4;}
 .kol-4{grid-column:span 4;}
@@ -18,3 +29,5 @@ background-color:green;
 .kol-6{grid-column:span 6;}
 .kol-3{grid-column:span 3;}
 .kol-3{grid-column:span 3;}
+
+
