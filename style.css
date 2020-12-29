@@ -4,11 +4,7 @@ body {
 
 
 main{
-	max-width:970px;
-	margin:auto;
-	display:grid;
-	grid-template-columns:repeat(12, 1fr);
-	grid-gap:10px;
+display:grid;
 }
 
 main img, main video{
