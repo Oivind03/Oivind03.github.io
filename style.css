@@ -5,6 +5,7 @@ body {
 
 main{
 display:grid;
+background-color:green;
 }
 
 main img, main video{
