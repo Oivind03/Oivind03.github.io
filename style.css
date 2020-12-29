@@ -1,10 +1,6 @@
 body {
 	background-color:lightblue;
 }
-html{
-	margion:0;
-}
-
 
 
 main{
@@ -19,9 +15,6 @@ main img, main video{
 	width:100%;
 }
 
-a{ 
-background-color:white;
-}
 
 .kol-12{grid-column:span 12;}
 .kol-3{grid-column:span 3;}
