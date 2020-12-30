@@ -36,7 +36,32 @@
 	
 	
 	<h1> Day 1</h1>
-	<p> Coming soon!</p>
+	<p> Coming soon!</p
+	
+		
+<div class="chart-container" style="position: relative; height:40vh; width:60vw">
+    	<script src="charts.js"></script>
+        <canvas id="myChart"></canvas>
+        
+        <script>
+	let dag = [1, 2, 3, 4, 5, 6, 7, 8];
+	let rep = [10, 15, 16, 14, 4, 14, 16, 32];
+
+	let ctx = document.getElementById('myChart').getContext('2d');
+	let myChart = new Chart(ctx, {
+	    type: 'bar',
+	    data: {
+	        labels: dag,
+	        datasets: [{
+	            label: 'pull ups',
+	            data: rep,
+	            backgroundColor: 'rgba(100, 99, 255, 0.2)',
+            borderWidth: 1
+	        }]
+	    }
+	});
+	</script>
+    </div>		
 </body>
 
 </html>
