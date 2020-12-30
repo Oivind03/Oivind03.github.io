@@ -3,21 +3,3 @@ body {
 }
 
 
-main{
-
-margin:auto;	
-display:grid;
-grid-gap:10px;
-}
-
-main img, main video{
-	width:100%;
-}
-
-
-.kol-12{grid-column:span 12;}
-.kol-3{grid-column:span 3;}
-.kol-6{grid-column:span 6;}
-.kol-3{grid-column:span 3;}
-
-
