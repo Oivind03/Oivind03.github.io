@@ -5,6 +5,7 @@ body {
 
 main{
 display:grid;
+grid-gap:10px;
 }
 
 main img, main video{
